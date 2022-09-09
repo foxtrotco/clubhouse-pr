@@ -28,7 +28,7 @@ function getStoryIds(pullRequest) {
   core.info(`PR Title: ${prTitle}`);
 
   if (branchStoryIds) {
-    storyIds = formatMatches(branchStoryIds);
+    storyIds = branchStoryIds;
 
     core.info(`Found Shortcut ID(s) in Branch Name: ${storyIds.join(', ')}`);
 
