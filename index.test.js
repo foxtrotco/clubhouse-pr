@@ -14,7 +14,7 @@ github.context = {
   payload: {
     pull_request: {
       title: 'Feature Name',
-      head: { ref: 'username/sc-1/feature-name' },
+      head: { ref: 'username/sc-1-feature-name' },
     },
   },
 };
